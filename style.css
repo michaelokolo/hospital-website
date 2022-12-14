@@ -53,9 +53,21 @@ section{
     border-radius: .5rem;
     background: var(--green);
     color: #fff;
-    margin-left: .5rem;
+    margin-left: .5rem;  
 
 }
+
+.btn:hover{
+    background: var(--green);
+    color:#fff;
+}
+
+.btn:hover span{
+    color: var(--green);
+    background:#fff;
+    margin-left:1rem;
+}
+
 
 .header{
     padding: 2rem 9%;
@@ -169,6 +181,10 @@ section{
 
     .header{
         padding:2rem;
+    }
+
+    section{
+        padding: 2rem;
     }
 }
 
