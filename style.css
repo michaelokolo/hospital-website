@@ -34,6 +34,10 @@ section{
     padding:2rem 9%;
 }
 
+section:nth-child(even){
+    background: #f5f5f5;
+}
+
 .btn{
     display: inline-block;
     margin-top:1rem;
@@ -147,14 +151,30 @@ section{
     color:var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
+} 
+
+.icons-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icons{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem;
+
 }
 
 
-
-
-
-
-
+.icons-container .icons i{
+    font-size: 4.5rem;
+    color:var(--green);
+}
 
 
 
